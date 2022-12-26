@@ -1,0 +1,102 @@
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --brand-color: #30C39E;
+    --2nd-bg-color: #0A8EA0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common code start  */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body{
+    font-family: var(--font-family);
+}
+/* common code end  */
+
+/* header section code start  */
+header{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+}
+/* nav section code start  */
+header .navbar-expand-lg {
+    padding: 20px 0px;
+}
+header .fa-galactic-republic:before {
+    color: var(--brand-color);
+}
+header .nav-link {
+    color: #fff;
+}
+header .navbar-nav .nav-link.active {
+    color: var(--brand-color);
+}
+header .nav-link:hover{
+    color: var(--brand-color);
+}
+header .nav-link:focus, .nav-link:hover {
+    color: var(--brand-color);
+}
+header .navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1.5;
+    transition: .5s all;
+}
+header .navbar-brand:hover {
+    color: var(--brand-color);
+}
+header .dropdown-menu {
+    background: transparent;
+    border-color: var(--brand-color);
+    --bs-dropdown-link-color: #fff;
+    --bs-dropdown-link-hover-color: #fff;
+    --bs-dropdown-link-hover-bg: #30C39E;
+    --bs-dropdown-link-active-color: #30C39E;
+    --bs-dropdown-link-active-bg: #30C39E;
+}
+/* nav section code end  */
+header .content-block h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+header .content-block h1{
+    color: var(--brand-color);
+    font-size: 5rem;
+}
+header .content-block-links a{
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    letter-spacing: 1.2px;
+    border-radius: 6px;
+    margin-right: 10px;
+    transition: .5s all;
+}
+header .content-block-links a:hover{
+    background-color: #30C39E;
+}
+@media (max-width:765px) {
+    header .content-block h1{
+        color: var(--brand-color);
+        font-size: 4rem;
+    }
+}
+/* header section code end  */
+
