@@ -24,6 +24,11 @@ img{
 body{
     font-family: var(--font-family);
 }
+.title h2{
+    font-size: 45px;
+    font-weight: 500;
+    color: #333;
+}
 /* common code end  */
 
 /* header section code start  */
@@ -100,3 +105,71 @@ header .content-block-links a:hover{
 }
 /* header section code end  */
 
+/* about section code start  */
+.about .about-blog-content h3{
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about .about-blog-content p{
+    font-size: 15px;
+    color: #666;
+    font-weight: 400;
+    line-height: 2;
+}
+.about .about-blog-content a{
+    display: inline-block;
+    background: #0A8EA0;
+    color: #fff;
+    padding: 10px 30px;
+    letter-spacing: .1em;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: .5s all;
+}
+.about .about-blog-content a:hover{
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #333;
+}
+/* about-blog-skills code start  */
+.about .about-blog-skills .skill-content h3{
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: .1em;
+    display: flex;
+    justify-content: space-between;
+}
+.about .about-blog-skills .skill-content p{
+    color: #666;
+    font-size: 15px;
+}
+/* about section code end  */
+
+/* service section code start  */
+.service{
+    background: #30C39E;
+}
+.service .title h2{
+    color: #fff;
+}
+.service .service-blog-content{
+    /* gap: 20px; */
+}
+.service .service-blog-content h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.service .service-blog-content h2 i{
+    margin-right: 10px;
+}
+.service .service-blog-content p{
+    color: #eee;
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+/* service section code end  */
