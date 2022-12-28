@@ -173,3 +173,141 @@ header .content-block-links a:hover{
     margin-bottom: 10px;
 }
 /* service section code end  */
+
+/* Experience section code start  */
+.experience .experience-blog{
+    flex-direction: column;
+}
+/* .experience .experience-blog-content code  */
+.experience .experience-blog-content{
+    padding: 0px 20px;
+}
+.experience .experience-blog-content h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.experience .experience-blog-content h2 span{
+    background-color: #30C39E;
+    color: #fff;
+    font-size: 17px;
+    padding: 3px 6px;
+}
+.experience .experience-blog-content p{
+    color: #666;
+    font-size: 1rem;
+    line-height: 2;
+}
+/* Experience section code end  */
+
+/* Blog section code start  */
+.blog{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../images/blog1.jpg) no-repeat;
+    background-size: cover;
+}
+/* blog title code  */
+.blog .blog-title h2{
+    color: #fff;
+}
+/* blog content code  */
+.blog .content h2{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 30px;
+}
+.blog .content p{
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.9;
+    padding: 15px 0px;
+}
+/* .blog-content-inner code  */
+.blog .blog-content-inner{
+    background: #fff;
+    padding: 20px;
+}
+.blog .blog-content-inner h2{
+    color: #333;
+    font-size: 20px;
+    letter-spacing: .1em;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog .blog-content-inner h2 span{
+    background-color: #30C39E;
+    font-size: 17px;
+    color: #fff;
+    padding: 2px 8px;
+}
+.blog .blog-content-inner p{
+    color: #999;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.blog .blog-content-inner a{
+    color: #30a1c3;
+    font-size: 1rem;
+    transition: .5s all;
+}
+.blog .blog-content-inner a:hover{
+    color: #30C39E;
+}
+/* Blog section code end  */
+
+/* project section code start  */
+.project .project-items a img{
+    transform: scale(1);
+    transition: .6s all;
+}
+.project .project-items a img:hover{
+    transform: scale(1.2);
+}
+/* project section code end  */
+
+/* skill section code start  */
+.skill{
+    background: #30a1c3;
+}
+.skill .skill-content-blog h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+.skill .skill-content-blog p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ddd;
+    line-height: 28px;
+    margin: 20px 0;
+    text-align: center;
+}
+.skill .skill-content-blog a{
+    display: inline-block;
+    color: #0A8EA0;
+    background-color: #fff;
+    padding: 15px 40px;
+    border-radius: 6px;
+    letter-spacing: .1em;
+    transition: .5s all;
+}
+.skill .skill-content-blog a:hover{
+    background-color: #333;
+    color: #fff;
+}
+.skill .skill-content-blog a:last-child{
+    background-color: #333;
+    color: #fff;
+}
+.skill .skill-content-blog a:last-child:hover{
+    background-color: #fff;
+    color: #0A8EA0;
+}
+/* skill section code end  */
