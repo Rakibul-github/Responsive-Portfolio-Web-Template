@@ -294,6 +294,7 @@ header .content-block-links a:hover{
     color: #0A8EA0;
     background-color: #fff;
     padding: 15px 40px;
+    margin: 0px 10px;
     border-radius: 6px;
     letter-spacing: .1em;
     transition: .5s all;
@@ -311,3 +312,109 @@ header .content-block-links a:hover{
     color: #0A8EA0;
 }
 /* skill section code end  */
+
+/* contact section code start  */
+.contact .address-block-header h2{
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact .address-block-body ul{
+    margin: 0;
+    padding: 0;
+}
+.contact .address-block-body ul li{
+    font-size: 15px;
+    color: #666;
+    margin: 8px 0;
+}
+.contact .address-block-body ul li i{
+    margin-right: 10px;
+    color: #30C39E;
+}
+.contact .address-block-body ul li a{
+    font-size: 15px;
+    color: #666;
+    transition: .5s all;
+}
+.contact .address-block-body ul li a:hover{
+    color: #30C39E;
+}
+/* map code start  */
+.contact .map iframe{
+    width: 100%;
+    height: 250px;
+    border: 5px solid rgba( 11, 230, 128, .2);
+}
+/* form code start  */
+.contact .form-block-header h2{
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact .form-block i{
+    color: #30C39E;
+}
+.contact .form-block .form-control:focus {
+    color: rgb(33, 37, 41);
+    background-color: rgb(255, 255, 255);
+    border-color: #30C39E;
+    outline: 0px;
+    box-shadow: rgba( 11, 230, 128, .3) 0px 0px 0px 0.25rem;
+}
+.contact .form-block .submit-btn{
+    position: relative;
+    width: 100%;
+}
+.contact .form-block .submit-btn button{
+    position: absolute;
+    right: 0;
+    padding: 10px 25px;
+    letter-spacing: .1em;
+    color: #fff;
+    background-color: #30a1c3;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: .5s all;
+}
+.contact .form-block .submit-btn button:hover{
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+}
+/* contact section code end  */
+
+/* footer section code start  */
+footer{
+    background: #1e1e1e;
+}
+footer .social-links{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer .social-links a{
+    width: 40px;
+    height: 40px;
+    color: #999;
+    background: #222;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #000,
+    0px 0px 20px #000,
+    0px 0px 30px #000;
+    transition: .6s all;
+}
+footer .social-links a:hover{
+    transform: rotate(360deg);
+}
+footer p{
+    font-size: 14px;
+    color: #999;
+}
+/* footer section code end  */
