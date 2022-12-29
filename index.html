@@ -18,19 +18,18 @@
     <!-- custom css link  -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
     <!-- header section code start  -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><i class="fa-brands fa-galactic-republic"></i> Activity</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span><i class="fa-solid fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll text-end">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -421,7 +420,7 @@ lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.
 
     <!-- Contact section start  -->
     <section class="contact">
-        <section class="container">
+        <section class="container py-2">
             <div class="row">
                 <div class="col-8 offset-2">
                     <div class="contact-title title text-center py-5">
@@ -476,8 +475,7 @@ lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.
                             <div class="mb-3 row">
                                 <label for="message" class="col-sm-2 col-form-label"><i class="fa-solid fa-message"></i> Message</label>
                                 <div class="col-sm-10">
-                                   <textarea class="form-control" id="message" cols="30" rows="5">
-                                   </textarea>
+                                   <textarea class="form-control" id="message" cols="30" rows="4"></textarea>
                                 </div>
                             </div>
                             <div class="submit-btn">
@@ -498,16 +496,19 @@ lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.
                 <div class="col-8 offset-2">
                     <div class="footer-block text-center">
                         <div class="social-links d-flex py-3">
-                            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-g"></i></a>
-                            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="https://www.facebook.com" target="_blank" title="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.google.com" target="_blank" title="Google"><i class="fa-solid fa-g"></i></a>
+                            <a href="https://www.twitter.com" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.pinterest.com" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
                         </div>
                         <div class="footer-content">
                             <p>
                                 &copy; 2018 Activity. All Rights Reserved | Design by Rakibul Hasan
                             </p>
+                        </div>
+                        <div class="scroll-bar">
+                            <a href="#home"><i class="fa-regular fa-circle-up"></i></a>
                         </div>
                     </div>
                 </div>

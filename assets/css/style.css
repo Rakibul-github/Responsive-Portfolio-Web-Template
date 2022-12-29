@@ -75,6 +75,11 @@ header .dropdown-menu {
     --bs-dropdown-link-active-color: #30C39E;
     --bs-dropdown-link-active-bg: #30C39E;
 }
+/* toggle code start  */
+.navbar-toggler {
+    color: #fff;
+    border: var(--bs-border-width) solid #fff;
+}
 /* nav section code end  */
 header .content-block h3{
     font-size: 20px;
@@ -365,12 +370,15 @@ header .content-block-links a:hover{
     box-shadow: rgba( 11, 230, 128, .3) 0px 0px 0px 0.25rem;
 }
 .contact .form-block .submit-btn{
-    position: relative;
-    width: 100%;
+    /* position: relative;
+    width: 100%; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 .contact .form-block .submit-btn button{
-    position: absolute;
-    right: 0;
+    /* position: absolute; */
+    /* right: 0; */
     padding: 10px 25px;
     letter-spacing: .1em;
     color: #fff;
@@ -388,6 +396,7 @@ header .content-block-links a:hover{
 
 /* footer section code start  */
 footer{
+    position: relative;
     background: #1e1e1e;
 }
 footer .social-links{
@@ -412,9 +421,44 @@ footer .social-links a{
 }
 footer .social-links a:hover{
     transform: rotate(360deg);
+    color: #30C39E;
 }
 footer p{
     font-size: 14px;
     color: #999;
+}
+/* scroll-up bar code  */
+footer .footer-block .scroll-bar{
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+}
+footer .footer-block .scroll-bar a i{
+    width: 30px;
+    height: 30px;
+    color: #999;
+    background: #222;
+    padding: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #000,
+    0px 0px 20px #000,
+    0px 0px 30px #000;
+    transition: .6s all;
+    cursor: pointer;
+}
+footer .footer-block .scroll-bar a i:hover{
+    color: #ddd;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (max-width: 765px) {
+    footer .footer-block .scroll-bar a i{
+        display: none;
+    }
 }
 /* footer section code end  */
